@@ -1,4 +1,4 @@
-class User {
+class Seller {
   private name: string;
 
   constructor(name: string) {
@@ -10,7 +10,5 @@ class User {
   }
 }
 
-const user = new User('Pesho');
+const user = new Seller('Pesho');
 console.log(user.sayHello());
-
-// to create js file from ts file type in terminal 'tsc index.ts' where index is the name of the file you wamt to run

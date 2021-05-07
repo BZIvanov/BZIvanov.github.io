@@ -20,9 +20,9 @@ class Ticket {
   }
 }
 
-let ticketsArray: Ticket[] = data.map((t: string) => {
-  let splited: string[] = t.split('|');
-  let price: number = Number(splited.splice(1, 1));
+const ticketsArray: Ticket[] = data.map((t: string) => {
+  const splited: string[] = t.split('|');
+  const price: number = Number(splited.splice(1, 1));
   return new Ticket(splited[0], price, splited[1]);
 });
 
