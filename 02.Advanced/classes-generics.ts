@@ -1,8 +1,8 @@
 class Box<T> {
   private _boxes = [];
 
-  public add(el: T) {
-    this._boxes.push(el);
+  public add(element: T) {
+    this._boxes.push(element);
   }
 
   public remove(): void {
@@ -20,3 +20,5 @@ box.add(2);
 box.add(3);
 box.remove();
 console.log(box.count);
+
+// if you get accessors error for ES version run with this command: 'tsc --target es6 file-name.ts'
