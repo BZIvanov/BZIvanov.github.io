@@ -23,3 +23,11 @@ In case you get ES version error, run with the below command. This can happen if
 ```
 tsc --target es6 my-file.ts
 ```
+
+## Creating configuration file
+
+Run the below command to create configuration file for your project:
+
+```
+tsc --init
+```
